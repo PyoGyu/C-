@@ -13,5 +13,8 @@
     <ClCompile Include="main_261109_01.cpp">
       <Filter>261109</Filter>
     </ClCompile>
+    <ClCompile Include="main_261109_02.cpp">
+      <Filter>261109</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
