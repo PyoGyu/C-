@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Pyo\\C\u002B\u002B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{192AA452-2F65-4E3F-97E6-F103B674F061}|C\u002B\u002B\\C\u002B\u002B.vcxproj|F:\\Pyo\\C\u002B\u002B\\C\u002B\u002B\\main_261109_01.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{192AA452-2F65-4E3F-97E6-F103B674F061}|C\u002B\u002B\\C\u002B\u002B.vcxproj|solutionrelative:C\u002B\u002B\\main_261109_01.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main_261109_01.cpp",
+              "DocumentMoniker": "F:\\Pyo\\C\u002B\u002B\\C\u002B\u002B\\main_261109_01.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002B\\main_261109_01.cpp",
+              "ToolTip": "F:\\Pyo\\C\u002B\u002B\\C\u002B\u002B\\main_261109_01.cpp*",
+              "RelativeToolTip": "C\u002B\u002B\\main_261109_01.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-09T00:51:06.649Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
