@@ -1,0 +1,19 @@
+# Visual Studio 캐시
+.vs/
+
+# 컴파일 결과물
+Debug/
+Release/
+x64/
+x86/
+
+# 컴파일 중간 파일
+*.obj
+*.pch
+*.ipch
+*.pdb
+*.ilk
+*.idb
+
+# 실행 파일
+*.exe
