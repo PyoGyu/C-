@@ -8,6 +8,9 @@
     <Filter Include="261109">
       <UniqueIdentifier>{aecf062b-1432-4fb8-bbb7-a4c5c081aeba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="261110">
+      <UniqueIdentifier>{2f60ba84-9da8-4ee5-9cfb-d1a171641de5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main_261109_01.cpp">
@@ -15,6 +18,15 @@
     </ClCompile>
     <ClCompile Include="main_261109_02.cpp">
       <Filter>261109</Filter>
+    </ClCompile>
+    <ClCompile Include="main_261110_01.cpp">
+      <Filter>261110</Filter>
+    </ClCompile>
+    <ClCompile Include="main_261110_02.cpp">
+      <Filter>261110</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_261110_01.cpp">
+      <Filter>261110</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
