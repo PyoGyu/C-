@@ -14,6 +14,9 @@
     <Filter Include="261111">
       <UniqueIdentifier>{367ab63d-0ad2-44e0-8485-ee311277da06}</UniqueIdentifier>
     </Filter>
+    <Filter Include="261112">
+      <UniqueIdentifier>{d6abb446-8a00-4989-9e99-c9c4e29f51bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main_261109_01.cpp">
@@ -44,5 +47,28 @@
     <ClCompile Include="main_261111_04.cpp">
       <Filter>261111</Filter>
     </ClCompile>
+    <ClCompile Include="main_261112_함수문법.cpp">
+      <Filter>261112</Filter>
+    </ClCompile>
+    <ClCompile Include="main_261112_전방선언.cpp">
+      <Filter>261112</Filter>
+    </ClCompile>
+    <ClCompile Include="main_261112_재귀함수.cpp">
+      <Filter>261112</Filter>
+    </ClCompile>
+    <ClCompile Include="main_261112_구조체.cpp">
+      <Filter>261112</Filter>
+    </ClCompile>
+    <ClCompile Include="main_261112_파일 분할 구현.cpp">
+      <Filter>261112</Filter>
+    </ClCompile>
+    <ClCompile Include="Func.cpp">
+      <Filter>261112</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="func.h">
+      <Filter>261112</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

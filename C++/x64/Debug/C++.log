@@ -1,4 +1,68 @@
-﻿  main_261111_04.cpp
-F:\Pyo\C++\C++\main_261111_04.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-F:\Pyo\C++\C++\main_261111_04.cpp(28,6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+﻿빌드 시작 환경:
+USERDOMAIN = assortrock2
+OS = Windows_NT
+LOGONSERVER = \\ASSORTROCK2
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+PROCESSOR_ARCHITECTURE = AMD64
+TMP = C:\Users\Assortrock_2\AppData\Local\Temp
+Path = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Users\Assortrock_2\AppData\Local\Microsoft\WindowsApps;C:\Users\Assortrock_2\.dotnet\tools;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\PrivateAssemblies\runtimes\win-x64\native
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD
+ThreadedWaitDialogDpiContext = -4
+VisualStudioDir = C:\Users\Assortrock_2\Documents\Visual Studio 18
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+LOCALAPPDATA = C:\Users\Assortrock_2\AppData\Local
+ALLUSERSPROFILE = C:\ProgramData
+ProgramW6432 = C:\Program Files
+CommonProgramFiles = C:\Program Files\Common Files
+VisualStudioEdition = Microsoft Visual Studio Community 2026
+USERDOMAIN_ROAMINGPROFILE = assortrock2
+MSBuildLoadMicrosoftTargetsReadOnly = true
+APPDATA = C:\Users\Assortrock_2\AppData\Roaming
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+windir = C:\WINDOWS
+ServiceHubHostServiceBrokerPipeName = \\.\pipe\E7D707E9-9138-49FB-BC71-93EC83D85C04
+OneDrive = C:\Users\Assortrock_2\OneDrive
+NUMBER_OF_PROCESSORS = 12
+SystemDrive = C:
+HOMEDRIVE = C:
+TEMP = C:\Users\Assortrock_2\AppData\Local\Temp
+VisualStudioVersion = 18.0
+VSAPPIDDIR = C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\
+VSAPPIDNAME = devenv.exe
+PROCESSOR_LEVEL = 25
+ProgramFiles(x86) = C:\Program Files (x86)
+DriverData = C:\Windows\System32\Drivers\DriverData
+VsPerMonitorDpiAwarenessEnabled.14716 = TRUE
+EFC_7660_1262719628 = 1
+ProgramData = C:\ProgramData
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+VSLANG = 1042
+VSSKUEDITION = Community
+ComSpec = C:\WINDOWS\system32\cmd.exe
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+VS_Perf_Session_GCHeapCount = 2
+USERNAME = Assortrock_2
+EFC_7660_4126798990 = 1
+VisualStudio_EditorBaseTheme = 1ded0138-47ce-435e-84ef-9ec1f439b749
+ServiceHubLogSessionKey = 211FBB3C
+EFC_7660_3789132940 = 1
+PkgDefApplicationConfigFile = C:\Users\Assortrock_2\AppData\Local\Microsoft\VisualStudio\18.0_de98e643\devenv.exe.config
+WEBVIEW2_DEFAULT_BACKGROUND_COLOR = ffffff
+FPS_BROWSER_USER_PROFILE_STRING = Default
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = ASSORTROCK2
+ProgramFiles = C:\Program Files
+PROCESSOR_REVISION = 6102
+USERPROFILE = C:\Users\Assortrock_2
+EFC_7660_2283032206 = 1
+EFC_7660_1592913036 = 1
+VisualStudio_ShellBaseTheme = 1ded0138-47ce-435e-84ef-9ec1f439b749
+SystemRoot = C:\WINDOWS
+HOMEPATH = \Users\Assortrock_2
+
+  main_261112_구조체.cpp
+F:\Pyo\C++\C++\main_261112_구조체.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+F:\Pyo\C++\C++\main_261112_구조체.cpp(18,6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+F:\Pyo\C++\C++\main_261112_구조체.cpp(20,10): warning C4101: 't' :참조되지 않은 지역 변수입니다.
   C++.vcxproj -> F:\Pyo\C++\x64\Debug\C++.exe
