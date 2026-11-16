@@ -17,6 +17,9 @@
     <Filter Include="261112">
       <UniqueIdentifier>{d6abb446-8a00-4989-9e99-c9c4e29f51bd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="261116">
+      <UniqueIdentifier>{b4b49f45-807f-46c3-930a-c0419b3de99c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main_261109_01.cpp">
@@ -64,6 +67,27 @@
     </ClCompile>
     <ClCompile Include="Func.cpp">
       <Filter>261112</Filter>
+    </ClCompile>
+    <ClCompile Include="main_정적변수.cpp">
+      <Filter>261116</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>261116</Filter>
+    </ClCompile>
+    <ClCompile Include="main_exturn.cpp">
+      <Filter>261116</Filter>
+    </ClCompile>
+    <ClCompile Include="main_exturn_test.cpp">
+      <Filter>261116</Filter>
+    </ClCompile>
+    <ClCompile Include="main_포인터.cpp">
+      <Filter>261116</Filter>
+    </ClCompile>
+    <ClCompile Include="main_포인터테스트.cpp">
+      <Filter>261116</Filter>
+    </ClCompile>
+    <ClCompile Include="main_포인터연산.cpp">
+      <Filter>261116</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
