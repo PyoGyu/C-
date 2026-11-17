@@ -20,6 +20,9 @@
     <Filter Include="261116">
       <UniqueIdentifier>{b4b49f45-807f-46c3-930a-c0419b3de99c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="261117">
+      <UniqueIdentifier>{b77acda2-2d63-487d-a1e7-b832e31e252d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main_261109_01.cpp">
@@ -88,6 +91,18 @@
     </ClCompile>
     <ClCompile Include="main_포인터연산.cpp">
       <Filter>261116</Filter>
+    </ClCompile>
+    <ClCompile Include="main_포인터 문제.cpp">
+      <Filter>261117</Filter>
+    </ClCompile>
+    <ClCompile Include="main_포인터와 문자열.cpp">
+      <Filter>261117</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 비교과제.cpp">
+      <Filter>261117</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터 문법 추가.cpp">
+      <Filter>261117</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
