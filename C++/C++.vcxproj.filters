@@ -23,6 +23,9 @@
     <Filter Include="261117">
       <UniqueIdentifier>{b77acda2-2d63-487d-a1e7-b832e31e252d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="261118">
+      <UniqueIdentifier>{fbad42f1-250e-43a2-9dab-d982ced2688b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main_261109_01.cpp">
@@ -103,6 +106,21 @@
     </ClCompile>
     <ClCompile Include="포인터 문법 추가.cpp">
       <Filter>261117</Filter>
+    </ClCompile>
+    <ClCompile Include="main_const.cpp">
+      <Filter>261118</Filter>
+    </ClCompile>
+    <ClCompile Include="main_const 포인터.cpp">
+      <Filter>261118</Filter>
+    </ClCompile>
+    <ClCompile Include="main_strcmp.cpp">
+      <Filter>261118</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 주의사항.cpp">
+      <Filter>261118</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬.cpp">
+      <Filter>261118</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
