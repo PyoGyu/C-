@@ -43,18 +43,31 @@ void BubbleSort(int* _Data, int _Size)
 void InsertSort(int* _Data, int _Size) 
 {
 	int key = 1;
+	int min = 0;
+	int index = 0;
 
 	for (int j = 0; j < _Size -1; ++j)
 	{
+		min = *(_Data + key);
+
 		for (int i = key - 1; i >= 0; --i)
 		{
-			if (*(_Data + key) < *(_Data + i)) 
+			if(min > *(_Data + i))
 			{
-				int swapTemp = *(_Data + key);
-				*(_Data + key) = *(_Data + i);
-				*(_Data + i) = swapTemp;
-			}
+				min = *(_Data + i);
+				index = i;
+			}				
 		}
+
+		int temp = *(_Data + key);			
+
+		for (int k = key-1; k >= index; --k)
+		{
+			*(_Data + k + 1) = *(_Data + k);
+		}
+
+		*(_Data + index) = temp;
+
 		key++;
 	}
 }
