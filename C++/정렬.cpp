@@ -44,35 +44,43 @@ void InsertSort(int* _Data, int _Size)
 {
 	int key = 1;
 	int min = 0;
-	int index = 0;
 
-	for (int j = 0; j < _Size -1; ++j)
+	for (int j = 1; j < _Size; ++j)
 	{
-		min = *(_Data + key);
-
-		for (int i = key - 1; i >= 0; --i)
+		for (int i = j - 1; i >= 0; --i)
 		{
-			if(min > *(_Data + i))
+			if (*(_Data + j) < *(_Data + i))
 			{
-				min = *(_Data + i);
-				index = i;
-			}				
+				int temp = *(_Data + j);
+				*(_Data + j) = *(_Data + i);
+				*(_Data + i) = temp;
+			}
 		}
-
-		int temp = *(_Data + key);			
-
-		for (int k = key-1; k >= index; --k)
-		{
-			*(_Data + k + 1) = *(_Data + k);
-		}
-
-		*(_Data + index) = temp;
-
-		key++;
-	}
+	}	
 }
 
 // selection sort
+void SelectionSort(int* _Data, int _Size)
+{
+	int Min = 0;
+
+	for (int j = 0; j < _Size; j++)
+	{
+		for (int i = Min + 1; i < _Size; i++)
+		{
+			if (*(_Data + Min) > *(_Data + i))
+			{
+				Min = *(_Data + i);
+			}
+		}
+
+		int temp = *(_Data);
+		*(_Data) = *(_Data + Min);
+		*(_Data + Min) = *(_Data);
+
+		Min++;
+	}	
+}
 
 // quick sort
 
@@ -88,8 +96,8 @@ int main()
 	}
 
 	//BubbleSort(Arr, 10);
-	InsertSort(Arr, 10);
-
+	//InsertSort(Arr, 10);
+	SelectionSort(Arr, 10);
 
 	return 0;
 }
