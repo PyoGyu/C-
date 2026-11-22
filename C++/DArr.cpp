@@ -53,8 +53,17 @@ int GetData(DArr* _Array, int _Idx)
 	return _Array->pData[_Idx];
 }
 
-void Insert(DArr* _DestArr, DArr* _SrcArr, int _InsertIndex, int _BeginIdx, int _EndIdx)
+void Insert(DArr* _DestArr, DArr* _SrcArr, UNIT _InsertIndex, UNIT _BeginIdx, UNIT _EndIdx)
 {
+	if (!_DestArr || !_SrcArr)
+		return;
+
+	if (_DestArr->CurCount <=_InsertIndex   // 삽입 받을 위치가 보윤한 데이터 영역을 넘어섬
+		|| _SrcArr->CurCount <= _BeginIdx   // 복사해올 시작점이 보유개수 위치를 넘어섬
+		|| _SrcArr->CurCount <= _EndIdx		// 복사해올 데이터의 끝 지점이 보유개수 위치를 넘어섬
+		|| _BeginIdx > _EndIdx)				// 시작과 끝 지점이 순서가 역전됨
+		return;
+
 	int insertDataCount = (_EndIdx - _BeginIdx + 1);
 	int addLength = insertDataCount - (_DestArr->MaxCount - _DestArr->CurCount);
 
@@ -81,5 +90,8 @@ void Insert(DArr* _DestArr, DArr* _SrcArr, int _InsertIndex, int _BeginIdx, int 
 		_DestArr->pData[_InsertIndex + i] = _SrcArr->pData[_BeginIdx + i];
 		printf("%d'\n'", _SrcArr[_BeginIdx + i]);
 	}
+
+	// 보유 데이터 개수 갱신
+	_DestArr->CurCount += insertDataCount;
 }
 

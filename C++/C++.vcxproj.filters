@@ -38,6 +38,12 @@
     <Filter Include="DataStructure\DynamicArray">
       <UniqueIdentifier>{5d86db3e-3741-4115-ad7e-a5e30fa35bc7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructure\LinkedList">
+      <UniqueIdentifier>{2bebb2ac-3611-46da-bb78-f5184dad0dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="261120">
+      <UniqueIdentifier>{f1f40c99-ea3c-4917-8629-6b6d4e437c2e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main_261109_01.cpp">
@@ -146,6 +152,15 @@
     <ClCompile Include="DArr.cpp">
       <Filter>DataStructure\DynamicArray</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>DataStructure\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="연결형 리스트.cpp">
+      <Filter>261120</Filter>
+    </ClCompile>
+    <ClCompile Include="클래스.cpp">
+      <Filter>261120</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">
@@ -153,6 +168,9 @@
     </ClInclude>
     <ClInclude Include="DArr.h">
       <Filter>DataStructure\DynamicArray</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>DataStructure\LinkedList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

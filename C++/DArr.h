@@ -1,5 +1,7 @@
 #pragma once
 
+typedef unsigned int UNIT;
+
 // 프로그래머가 직접 만드는 자료형
 struct DArr
 {
@@ -19,7 +21,7 @@ int GetData(DArr* _Array, int _Idx);
 // _SrcArr : 삽입시킬 데이터를 가지고 있는 배열
 // _InsertIdx : 삽입 위치, 해당 인덱스가 가리키는 데이터 앞쪽에 삽입
 // _BeginIdx, _EndIdx : 삽입시킬 데이터의 시작과 끝 위치
-void Insert(DArr* _DestArr, DArr* _SrcArr, int _InsertIndex, int _BeginIdx, int _EndIdx);
+void Insert(DArr* _DestArr, DArr* _SrcArr, UNIT _InsertIndex, UNIT _BeginIdx, UNIT _EndIdx);
 
 // main 호출
 //Insert(&a1, &a2, 1, 0, 2);
