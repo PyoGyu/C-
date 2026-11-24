@@ -5,9 +5,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="261119">
-      <UniqueIdentifier>{b781f8a7-bbca-4740-87a7-87905989fb01}</UniqueIdentifier>
-    </Filter>
     <Filter Include="이전수업">
       <UniqueIdentifier>{98faa961-c47a-493e-a053-c075f40c59dc}</UniqueIdentifier>
     </Filter>
@@ -41,7 +38,13 @@
     <Filter Include="DataStructure\LinkedList">
       <UniqueIdentifier>{2bebb2ac-3611-46da-bb78-f5184dad0dd5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="261120">
+    <Filter Include="이전수업\261119">
+      <UniqueIdentifier>{b781f8a7-bbca-4740-87a7-87905989fb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="261124">
+      <UniqueIdentifier>{00526f00-c5f4-41db-bd29-c82b2b12ad69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="261120, 1123">
       <UniqueIdentifier>{f1f40c99-ea3c-4917-8629-6b6d4e437c2e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -141,13 +144,13 @@
       <Filter>이전수업\261118</Filter>
     </ClCompile>
     <ClCompile Include="정렬문제풀이.cpp">
-      <Filter>261119</Filter>
+      <Filter>이전수업\261119</Filter>
     </ClCompile>
     <ClCompile Include="동적할당.cpp">
-      <Filter>261119</Filter>
+      <Filter>이전수업\261119</Filter>
     </ClCompile>
     <ClCompile Include="동적할당2.cpp">
-      <Filter>261119</Filter>
+      <Filter>이전수업\261119</Filter>
     </ClCompile>
     <ClCompile Include="DArr.cpp">
       <Filter>DataStructure\DynamicArray</Filter>
@@ -156,22 +159,29 @@
       <Filter>DataStructure\LinkedList</Filter>
     </ClCompile>
     <ClCompile Include="연결형 리스트.cpp">
-      <Filter>261120</Filter>
+      <Filter>261120, 1123</Filter>
     </ClCompile>
     <ClCompile Include="클래스.cpp">
-      <Filter>261120</Filter>
+      <Filter>261120, 1123</Filter>
     </ClCompile>
     <ClCompile Include="main_클래스.cpp">
-      <Filter>261120</Filter>
+      <Filter>261120, 1123</Filter>
     </ClCompile>
     <ClCompile Include="main_클래스 문법.cpp">
-      <Filter>261120</Filter>
+      <Filter>261120, 1123</Filter>
     </ClCompile>
     <ClCompile Include="main_new,delete.cpp">
-      <Filter>261120</Filter>
+      <Filter>261120, 1123</Filter>
     </ClCompile>
     <ClCompile Include="연산자 오버로딩.cpp">
-      <Filter>261120</Filter>
+      <Filter>261120, 1123</Filter>
+    </ClCompile>
+    <ClCompile Include="main_연산자 오버로딩2.cpp">
+      <Filter>261124</Filter>
+    </ClCompile>
+    <ClCompile Include="CArray.cpp" />
+    <ClCompile Include="main_CArray.cpp">
+      <Filter>261124</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -184,5 +194,6 @@
     <ClInclude Include="LinkedList.h">
       <Filter>DataStructure\LinkedList</Filter>
     </ClInclude>
+    <ClInclude Include="CArray.h" />
   </ItemGroup>
 </Project>
