@@ -47,6 +47,12 @@
     <Filter Include="261120, 1123">
       <UniqueIdentifier>{f1f40c99-ea3c-4917-8629-6b6d4e437c2e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="261125">
+      <UniqueIdentifier>{d3face42-c0e4-4cd5-a08c-6fbcfbfa3d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{0af62ab6-9737-4998-b677-06cfa25d5b69}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main_261109_01.cpp">
@@ -183,6 +189,13 @@
     <ClCompile Include="main_CArray.cpp">
       <Filter>261124</Filter>
     </ClCompile>
+    <ClCompile Include="main_LinkedList.cpp">
+      <Filter>261125</Filter>
+    </ClCompile>
+    <ClCompile Include="CList.cpp" />
+    <ClCompile Include="vector, list.cpp">
+      <Filter>261125</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">
@@ -195,5 +208,6 @@
       <Filter>DataStructure\LinkedList</Filter>
     </ClInclude>
     <ClInclude Include="CArray.h" />
+    <ClInclude Include="CList.h" />
   </ItemGroup>
 </Project>
